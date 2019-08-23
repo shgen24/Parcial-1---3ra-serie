@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('img/fondo.jfif');
+    background-size: auto;
+}
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    font-style: italic;
+}
+header nav ul li a:hover{
+    background: #dda817;
+}
+
+header{
+    padding: 5px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+header, article, aside, footer{
+    background-color: #e2c4c4;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+article{
+    padding: 5px;
+    border: 2px solid black;
+    margin: 5px
+}
+
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('');
+}
